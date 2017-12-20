@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2016/11/18 11:36:10.000.509,=C:\Users\RNTecnologia\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/11/18 11:39:21.000.702,C:\Users\RNTecnologia\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\RNTecnologia\Documents\Embarcadero\Studio\Projects\UnPrincipal.dfm</Transaction>
+    <Transaction>2016/11/18 11:39:21.000.702,C:\Users\RNTecnologia\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\RNTecnologia\Documents\Embarcadero\Studio\Projects\UnPrincipal.pas</Transaction>
+    <Transaction>2016/11/18 11:39:35.000.738,C:\Users\RNTecnologia\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\RNTecnologia\Documents\Embarcadero\Studio\Projects\PrjControleDesconto.dproj</Transaction>
+    <Transaction>2016/11/18 11:42:36.000.882,=C:\Users\RNTecnologia\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/11/18 11:43:30.000.272,C:\Users\RNTecnologia\Documents\Embarcadero\Studio\Projects\Unit1.pas=F:\+ Zoraia\GitHub\ControleDescontoDelphiPascal\UnCombustivel.pas</Transaction>
+    <Transaction>2016/11/18 11:44:56.000.879,=C:\Users\RNTecnologia\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/11/18 11:45:29.000.172,C:\Users\RNTecnologia\Documents\Embarcadero\Studio\Projects\Unit1.pas=F:\+ Zoraia\GitHub\ControleDescontoDelphiPascal\UnCompraCombustivel.pas</Transaction>
+    <Transaction>2016/11/18 14:11:31.466,F:\+ Zoraia\GitHub\ControleDescontoDelphiPascal\PrjControleDesconto.dproj=C:\Users\RNTecnologia\Documents\Embarcadero\Studio\Projects\PrjControleDesconto.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

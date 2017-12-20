@@ -1,0 +1,89 @@
+unit UnCompraCombustivel;
+
+interface
+
+uses UnCombustivel;
+
+type
+  TCompraCombustivel = class
+    // atributos e metodos privados
+
+  
+    Fcombustivel: TCombustivel;
+    FlitrosComprado: Currency;
+    Fdesconto: Currency;
+    FvalorDesconto: Currency;
+    FvalorBruto: Currency;
+    FtotalVenda: Currency;
+    FlimiteLitroDesconto: Currency;
+
+    procedure setCombustivel(const Value: TCombustivel);
+    procedure setLitrosComprado(const Value: Currency);
+    procedure setDesconto(const Value: Currency);
+
+  protected
+    // atributos e metodos protegidos
+  public
+    // atibutos e metodos publicos
+
+    property combustivel: TCombustivel read Fcombustivel write setCombustivel;
+
+    function calculaValorBruto(): Currency;
+    function calculaValorDesconto(): Currency;
+    function calculaValorVenda(): Currency;
+
+    Constructor Create( Const combustivel : TCombustivel; litrosComprado : Currency; desconto : Currency  ); // declaração do metodo construtor
+
+    Destructor Destroy; Override; // declaração do metodo destrutor
+
+    // metodos da classe
+  end;
+
+implementation
+
+{ TCompraCombustivel }
+
+function TCompraCombustivel.calculaValorBruto: Currency;
+begin
+  Result := 0;
+end;
+
+function TCompraCombustivel.calculaValorDesconto: Currency;
+begin
+
+end;
+
+function TCompraCombustivel.calculaValorVenda: Currency;
+begin
+
+end;
+
+constructor TCompraCombustivel.Create( Const combustivel : TCombustivel; litrosComprado : Currency; desconto : Currency );
+begin
+   Fcombustivel := combustivel;
+   FlitrosComprado := litrosComprado;
+   Fdesconto := desconto;
+end;
+
+destructor TCompraCombustivel.Destroy;
+begin
+
+  inherited;
+end;
+
+procedure TCompraCombustivel.setCombustivel(const Value: TCombustivel);
+begin
+
+end;
+
+procedure TCompraCombustivel.setDesconto(const Value: Currency);
+begin
+
+end;
+
+procedure TCompraCombustivel.setLitrosComprado(const Value: Currency);
+begin
+
+end;
+
+end.
